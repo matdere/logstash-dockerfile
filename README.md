@@ -2,6 +2,11 @@
 
 Logstash 1.3.3 (with Kibana 3)
 
+This is a fork of the great work made by denibertovic
+I only had to change a few lines to make it work the way I wanted to. 
+
+The main difference with his work is that now I use the http transport to communicate with an external elasticsearch server that can be installed on an external container. 
+
 
 Clone the repo
 
