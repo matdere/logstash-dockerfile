@@ -29,11 +29,9 @@ output {
       debug => true
   }
 
-  elasticsearch {
-      embedded => $EMBEDDED
+  elasticsearch_http {
       host => "$ES_HOST"
       port => "$ES_PORT"
-      workers => $WORKERS
   }
 }
 EOF
